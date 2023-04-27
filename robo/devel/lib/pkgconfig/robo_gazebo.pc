@@ -1,0 +1,8 @@
+prefix=/home/el-shamy/Desktop/task/robo/devel
+
+Name: robo_gazebo
+Description: Description of robo_gazebo
+Version: 0.0.0
+Cflags: -I/home/el-shamy/Desktop/task/robo/src/robo_gazebo/include
+Libs: -L${prefix}/lib -lrobo_gazebo
+Requires: geometry_msgs roscpp rospy rviz std_msgs tf urdf xacro

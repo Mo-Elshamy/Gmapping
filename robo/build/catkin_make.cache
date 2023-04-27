@@ -1,0 +1,2 @@
+robo_description:robo_gazebo:robo_gmapping/gmapping:robo_gmapping/slam_gmapping
+-DCATKIN_DEVEL_PREFIX=/home/el-shamy/Desktop/task/robo/devel -DCMAKE_INSTALL_PREFIX=/home/el-shamy/Desktop/task/robo/install -G Unix Makefiles

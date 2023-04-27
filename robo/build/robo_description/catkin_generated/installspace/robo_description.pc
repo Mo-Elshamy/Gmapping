@@ -1,0 +1,8 @@
+prefix=/home/el-shamy/Desktop/task/robo/install
+
+Name: robo_description
+Description: Description of robo_description
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrobo_description
+Requires: Gazebo geometry_msgs roscpp rospy rviz std_msgs tf urdf xacro
